@@ -1,0 +1,14 @@
+<header>
+  <div style=" background: url() ; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        height: 100vh;
+        text-align: center;
+        font-family: 'Roboto';
+        margin-bottom: 300px;">
+        <h2 style="color:#191919; margin-top: 100px;">You have successfully signed up for 'Fetch the Team Doggo' <%= @username.split(" ")[0] %>! 🎉</h2>
+        <p style="color:grey; font-size: 19px; margin-bottom: 20px;">Enter a company's twitter handle and ask Doggo to fetch the team and founder for you 🔍</p>
+        <input type="text" name="lname" placeholder="@twitter_handle"><br>
+        <a href="/fetch" class="btn btn-success" style="margin:20px; padding:10px;">Fetch!</a>
